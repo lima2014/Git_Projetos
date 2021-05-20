@@ -1,2 +1,46 @@
-Comandos Git 
-Git status
+Comandos Git:
+Obs: quando esta começando um projeto do zero esses são os comandos.
+
+1 - git init --> User esse comando dentro da pasta do projeto, assim como os demais abaixo. 
+2 - git config --global user.name "Seu nome"
+3 - git config --global user.email "Seu email"
+4 - Comece a criar seus arquivos e pastas do projeto, 
+5 - git status --> para saber quais arquivos, já estão prontos para add e committing, o arquivo vai esta em vermelho
+Exemplo abaixo:
+
+On branch master
+
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        A.txt
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+6 - git add . ou git add + nomedoarquivocomextensão exemplo A.txt
+7 - git commit -m "Mensagem que vai esta no commit"
+Exemplo: git commit -m "Primero commit do projeto"
+8 - git status 
+Abaixo a mensagem de retorno do git status nesse momento do projeto.
+PS C:\Projetos\Git\Projeto_Git> git status
+On branch master
+
+No commits yet
+
+OBS: crien uma conta no github, crie um new repository / novo repositorio,
+vai gerar os codigos 
+
+or create a new repository on the command line
+echo "# teste" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+9 - git branch -M main
+10 - git remote add origin https://github.com/lima2014/teste.git "Essa linha vai ter seu link, nesse caso está esse que criei"
+11 - git push -u origin main
+
+==============================================================
+…or push an existing repository from the command line
+git remote add origin https://github.com/lima2014/teste.git
+git branch -M main
+git push -u origin main
