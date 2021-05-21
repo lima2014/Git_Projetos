@@ -1,7 +1,7 @@
 Comandos Git:
 Obs: quando esta começando um projeto do zero esses são os comandos.
 
-1 - git init --> User esse comando dentro da pasta do projeto, assim como os demais abaixo. 
+1 - git init --> Usar esse comando dentro da pasta do projeto, assim como os demais abaixo. 
 2 - git config --global user.name "Seu nome"
 3 - git config --global user.email "Seu email"
 4 - Comece a criar seus arquivos e pastas do projeto, 
