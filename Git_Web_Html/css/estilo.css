@@ -59,8 +59,8 @@
     /*Links hover*/
     
     a:hover {
-        color: #fff;
-        background: #b9c941;
+        color: red;
+        /* background: #b9c941;*/
     }
     /*Links active*/
     /*Classes*/
